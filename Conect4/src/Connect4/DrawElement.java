@@ -13,7 +13,7 @@ import acm.graphics.GRect;
  *
  */
 public class DrawElement extends GCompound {
-
+//
 	private int size;
 	/**
 	 * Draws the rects and circles.

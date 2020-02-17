@@ -7,7 +7,7 @@ import acm.program.ConsoleProgram;
 
 //ka ob graphics gebraucht wird / eig net
 public class PlayGame extends ConsoleProgram {
-
+//
 	Player player1;
 	Player player2;
 

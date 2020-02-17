@@ -4,7 +4,7 @@ package Connect4;
  * Model (model). MVC
  */
 public class BoardStorage {
-
+//
 	/** input storage. */
 	// vllt brauchen wirs vllt auch net
 	static Boolean[][] storage;

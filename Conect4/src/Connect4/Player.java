@@ -10,7 +10,7 @@ import java.util.HashSet;
  *
  */
 public class Player {
-
+//
 	private String name;
 
 	private Color fillColor;

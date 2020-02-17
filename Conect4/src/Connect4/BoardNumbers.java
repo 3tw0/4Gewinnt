@@ -10,7 +10,7 @@ import acm.program.GraphicsProgram;
  * präsentation (view) MVC
  */
 public class BoardNumbers extends GraphicsProgram {
-
+//
 	/** description offset. */
 	private static final int DESCRIPTION_OFFSET = 20;
 

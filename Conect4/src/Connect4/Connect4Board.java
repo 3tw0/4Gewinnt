@@ -7,7 +7,7 @@ import acm.program.GraphicsProgram;
  *
  */
 public class Connect4Board extends GraphicsProgram {
-
+//
 	/** offset. */
 	static final int OFFSET = 75;
 	/** size. */

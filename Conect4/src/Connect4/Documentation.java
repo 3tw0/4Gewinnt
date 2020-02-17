@@ -24,7 +24,7 @@ package Connect4;
 //steine ja in der entsprechenden zeile immer bis auf den boden/höchsten stein rutschen
 
 
-
+//
 
 
 //In PlayGame statt println() lieber gLabels einbauen

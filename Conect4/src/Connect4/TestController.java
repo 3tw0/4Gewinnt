@@ -32,6 +32,7 @@ public class TestController extends DialogProgram {
 		
 		setSize(900,600);
 		new Connect4Board().start();
+		// hi
 		
 		// controller / playGame so implementieren , das while loop im controller ist und immer einfach nur playGame
 		// mit dem jeweiligen spieler aufruft, für bessere übersichtlichkeit der playGame klasse
