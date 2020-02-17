@@ -3,6 +3,7 @@ package Connect4;
 import java.awt.Color;
 
 import acm.graphics.GCompound;
+import acm.graphics.GLabel;
 import acm.graphics.GOval;
 import acm.graphics.GRect;
 
@@ -15,13 +16,14 @@ import acm.graphics.GRect;
 public class DrawElement extends GCompound {
 //
 	private int size;
+
 	/**
 	 * Draws the rects and circles.
 	 * 
 	 * @param size the rect(background) size.
 	 */
 	public DrawElement(int size) {
-		
+
 		this.size = size;
 
 		GRect rect = new GRect(0, 0, size, size);

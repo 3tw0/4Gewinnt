@@ -9,8 +9,8 @@ public class BoardStorage {
 	// vllt brauchen wirs vllt auch net
 	static Boolean[][] storage;
 
-	public BoardStorage() {
-		storage = new Boolean[7][6];
+	public BoardStorage(int x,int y) {
+		storage = new Boolean[x][y];
 	}
 
 	/** methode die im array speichert. */

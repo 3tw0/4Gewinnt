@@ -30,9 +30,10 @@ public class Player {
 		this.fillColor = fillColor;
 
 	}
-	
+
 	/**
 	 * Name setter.
+	 * 
 	 * @return Name
 	 */
 	public String getName() {
@@ -41,6 +42,7 @@ public class Player {
 
 	/**
 	 * Color setter.
+	 * 
 	 * @return fillColor
 	 */
 	public Color getFillColor() {
@@ -49,6 +51,7 @@ public class Player {
 
 	/**
 	 * Name setter.
+	 * 
 	 * @param name name
 	 */
 	public void setName(String name) {
@@ -57,6 +60,7 @@ public class Player {
 
 	/**
 	 * Color setter.
+	 * 
 	 * @param fillColor player color
 	 */
 	public void setFillColor(Color fillColor) {
@@ -65,6 +69,7 @@ public class Player {
 
 	/**
 	 * has set with all player positions.
+	 * 
 	 * @return hashset
 	 */
 	public HashSet getPositionStorage() {
@@ -73,37 +78,39 @@ public class Player {
 
 	/**
 	 * adds a int to the hashset.
+	 * 
 	 * @param n integer to add
 	 */
 	public void addPositionStorage(int n) {
 		positionStorage.add(n);
 	}
-	
+
 	/**
 	 * finds the integer of a given entry in the check array.
-	 * @param row the row
+	 * 
+	 * @param row      the row
 	 * @param posInRow the column
 	 * @return the integer to add to the players hashset
 	 */
-	public int findHashValue (int row, int posInRow) {
+	public int findHashValue(int row, int posInRow) {
 		// row value muss umgedreht werden da array 0
 		// ja oben ist oben aber 5 sein muss für unser board
-		
-		
+
 		return 1;
 	}
 
 	/**
 	 * das grafische plazieren des spielsteins.
-	 * @param x pos
-	 * @param y pos
+	 * 
+	 * @param x      pos
+	 * @param y      pos
 	 * @param player player atm (only important for the color)
 	 */
 	public void placePlayer(int x, int y, Player player) {
 		Color thisColor = player.getFillColor();
-		
+
 		// placer
 		// muss noch implementiert werden
-		
+
 	}
 }
